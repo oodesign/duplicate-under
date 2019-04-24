@@ -1,0 +1,21 @@
+var DuplicateUnder = function(context) {
+  var doc = context.document;
+  var page = doc.currentPage();
+  var selection = context.selection;
+  var newSelection=[];
+
+  for(var i = 0; i < selection.count(); i++){
+    var layers = selection[i].parentGroup().layers();
+    var dup = selection[i].duplicate();
+    var index = layers.indexOf(selection[i]);
+    var dupIndex = layers.indexOf(dup);
+    [layers[index], layers[dupIndex]] = [layers[dupIndex], layers[index]];
+    newSelection.push(dup);
+  }
+
+  for(var i = 0; i < newSelection.length; i++){
+    newSelection[i].select_byExpandingSelection(true, (i>0));
+  }
+
+};
+          

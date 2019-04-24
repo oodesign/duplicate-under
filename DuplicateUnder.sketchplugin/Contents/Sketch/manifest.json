@@ -1,0 +1,60 @@
+{
+  "compatibleVersion": 50,
+  "appcast" : "https://raw.githubusercontent.com/oodesign/duplicate-under/master/appcast.xml",
+  "commands" : [
+    {
+      "script" : "DuplicateUnder.cocoascript",
+      "name" : "Duplicate under",
+      "shortcut": "command shift d",
+      "handler" : "DuplicateUnder",
+      "identifier" : "duplicateunder",
+      "icon" : "icon-sr.png"
+    },
+    {
+      "script" : "Help.cocoascript",
+      "name" : "Documentation",
+      "identifier": "documentation",
+      "handlers" : {
+        "run" : "documentation"
+      }
+    },
+    {
+      "script" : "Help.cocoascript",
+      "name" : "Report issue or an idea",
+      "identifier": "report_issue",
+      "handlers" : {
+        "run" : "report_issue"
+      }
+    },
+    {
+      "script" : "Help.cocoascript",
+      "name" : "Donate",
+      "identifier": "donate",
+      "handlers" : {
+        "run" : "donate"
+      }
+    }
+  ],
+  "menu" : {
+    "title" : "Duplicate under",
+    "items" : [
+      "duplicateunder",
+      {
+        "title": "Help",
+        "items": [
+          "documentation",
+          "report_issue",
+          "donate"
+        ]
+      }
+    ]
+  },
+  "identifier" : "com.oodesign.duplicateunder",
+  "version" : "1.0.0",
+  "name" : "Duplicate Under",
+	"icon" : "icon.png",
+  "authorEmail" : "oodesignux@gmail.com",
+  "description": "Duplicates layer, but places copies under the original in the layer list.",
+  "author": "oodesign",
+  "homepage": "https://github.com/oodesign/duplicateunder"
+}

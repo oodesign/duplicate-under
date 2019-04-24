@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Duplicate Under</title>
+    <link>https://github.com/oodesign/duplicate-under/blob/master/appcast.xml</link>
+    <description>Duplicates layer, but places copies under the original in the layer list.</description>
+    <language>en</language>
+      <item>
+        <title>Version 1.0.0</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Sketch plugin to duplicate layers, but placing copies under the originals in the layer list.</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/oodesign/merge-duplicate-symbols/archive/master.zip" sparkle:version="1.0.0"/>
+      </item>
+ </channel>
+</rss>
