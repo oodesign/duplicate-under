@@ -1,4 +1,4 @@
-<img src="https://github.com/oodesign/duplicate-under/blob/master/Images/Hero.png" alt="Duplicate Under logo"/>
+<img src="https://github.com/oodesign/duplicate-under/blob/master/Images/Hero.jpg" alt="Duplicate Under logo"/>
 
 # Duplicate Under (Sketch plugin)
 
