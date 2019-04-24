@@ -14,9 +14,9 @@ Let Sketchpacks or Runner do the work for you. Open one of them, search for "Dup
 	<img width="160" height="41" src="http://bit.ly/RunnerBadgeBlue" alt="runner-badge-blue">
 </a>
 
-<!-- <a href="https://sketchpacks.com/oodesign/merge-duplicate-symbols/install">
+<a href="https://sketchpacks.com/oodesign/duplicate-under/install">
 	<img width="160" height="41" src="http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png" >
-</a> -->
+</a>
 
 <a href="https://www.paypal.me/oodesign">
 	<img width="160" height="41" src="https://github.com/oodesign/icon-tools/blob/master/Images/paypal-badge.png">
